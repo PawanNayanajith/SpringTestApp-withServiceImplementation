@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: hello.GreetingControllerTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.014 s <<< FAILURE! - in hello.GreetingControllerTests
+initializationError(hello.GreetingControllerTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+
